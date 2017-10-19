@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "SUM";
+}
+
+<h2>* Arithmetic</h2>
+<h3>@ViewBag.Message</h3>
+
+<body>
+    <div >
+        <form action="/Home/F1">
+            加&nbsp;&nbsp;&nbsp;数: &nbsp; <input id="a"type="text"name="a" /><br />
+            被加数:&nbsp; <input id="b"type="text" name="b" /><br />
+            <input id="submit1"type="submit" value="计算" />
+        </form>
+    </div>
+</body>
+<body >
+    <div>
+        结果是：@ViewBag.a 
+    </div>
+</body>
